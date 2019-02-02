@@ -33,3 +33,4 @@ export interface Location {
      */
     locationType?: string;
 }
+

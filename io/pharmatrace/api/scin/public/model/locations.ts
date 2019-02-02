@@ -27,3 +27,4 @@ export interface Locations {
     count?: number;
     history?: Array<Location>;
 }
+

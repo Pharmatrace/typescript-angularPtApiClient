@@ -16,3 +16,4 @@ export interface ModelError {
     message?: string;
     fields?: string;
 }
+

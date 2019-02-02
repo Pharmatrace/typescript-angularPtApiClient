@@ -33,3 +33,4 @@ export interface Stakeholder {
      */
     walletId?: string;
 }
+

@@ -49,3 +49,4 @@ export interface LegalTxTerms {
      */
     legislation?: string;
 }
+

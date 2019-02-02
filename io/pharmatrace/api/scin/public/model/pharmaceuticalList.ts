@@ -18,3 +18,4 @@ export interface PharmaceuticalList {
      */
     products?: Array<Pharmaceutical>;
 }
+

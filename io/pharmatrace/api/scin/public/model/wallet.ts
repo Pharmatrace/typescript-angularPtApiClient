@@ -29,3 +29,4 @@ export interface Wallet {
      */
     ownerStakeholderId?: string;
 }
+

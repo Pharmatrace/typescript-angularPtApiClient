@@ -12,5 +12,22 @@
 import { Transaction } from './transaction';
 
 
-export interface InformationQueryResponse extends Transaction { 
+export interface InformationQueryResponse { 
+    /**
+     * GMT, Unix Epoch
+     */
+    timestamp?: number;
+    /**
+     * unique id hash of the transaction
+     */
+    txUid?: string;
+    /**
+     * id reference to the terms and conditions for this transaction
+     */
+    termsId?: string;
+    /**
+     * hyperledger channel the transaction has been executed in
+     */
+    transactionChannel?: string;
 }
+

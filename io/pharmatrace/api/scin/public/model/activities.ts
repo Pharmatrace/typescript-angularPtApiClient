@@ -27,3 +27,4 @@ export interface Activities {
     count?: number;
     history?: Array<Activity>;
 }
+

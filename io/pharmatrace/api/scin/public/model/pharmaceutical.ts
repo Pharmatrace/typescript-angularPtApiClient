@@ -37,3 +37,4 @@ export interface Pharmaceutical {
      */
     image?: string;
 }
+

@@ -32,3 +32,4 @@ export interface SystemInformation {
      */
     message?: string;
 }
+
